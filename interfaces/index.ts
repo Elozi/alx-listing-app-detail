@@ -24,5 +24,12 @@ export interface CardProps {
     };
     image: string;
     discount?: string;
+    description?: string;
+    reviews?: {
+      name: string;
+      rating: number;
+      comment: string;
+      avatar: string;
+    }[];
   }
   
